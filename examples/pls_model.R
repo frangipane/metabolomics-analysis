@@ -1,7 +1,7 @@
 # example_data.csv
 
 ## load PLS model scripts in script_library
-base.dir = "script_library"
+base.dir = "R"
 source(file.path(base.dir, "plsModel.R"), chdir=T)
 source(file.path(base.dir, "shuffleModel.R"), chdir=T)
 source(file.path(base.dir, "permutationPlots.R"), chdir=T)

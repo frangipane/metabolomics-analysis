@@ -1,6 +1,6 @@
 # example_data.csv
 
-base.dir = "script_library"
+base.dir = "R"
 source(file.path(base.dir, "ADtest.R"))
 source(file.path(base.dir, "plotQQ.R"))
 source(file.path(base.dir, "timecourse_ANOVA.R"), chdir=T)

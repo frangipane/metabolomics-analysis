@@ -1,7 +1,7 @@
 # example_data.csv
 
 ## load all the scripts in script_library
-base.dir = "script_library"
+base.dir = "R"
 source(file.path(base.dir, "plotMetabolite_meanTimecourse.R"))
 source(file.path(base.dir, "plotheatmap2.R"))
 source(file.path(base.dir, "clusterData.R"))
